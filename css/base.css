@@ -36,6 +36,8 @@ section p {
 
 audio {
   opacity: 0.1;
-  left: 400px;
-  float:center;
+}
+
+#thin:placeholder-shown {
+    text-align: center;
 }
