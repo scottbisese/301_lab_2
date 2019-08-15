@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/base.css" />
     <link rel="stylesheet" type="text/css" href="css/layouts.css" />
     <!-- original loop by Grimly Wallace -->
-    <audio src='./goat.wav' autoplay=true controls=show loop=true></audio>
+    <audio id =goatLoop src='./goat.wav' autoplay=true controls=show loop=true></audio>
   </head>
   <body>
     <header>
@@ -16,9 +16,10 @@
         <img id='goat1' src='./goat.png'>
         Hor0noH
         <img id='goat2' src='./goat2.png'>
+          <button onclick="document.getElementById('goatLoop').play()">Demon Mode</button>
       </h1>
       <select>
-        <option value="default">Figure it out, Brah!</option>
+        <option id='thin' value="default">Thin the herd...</option>
       </select>
     </header>
     <main>
