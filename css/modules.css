@@ -1,0 +1,14 @@
+section h2 {
+  margin-bottom: 12.5px;
+  font-size: 40px;
+  color: black;
+}
+section img {
+  width: 33%;
+  justify-content: space-around;
+}
+
+main {
+  width: 25%;
+  justify-content: space-around;
+}

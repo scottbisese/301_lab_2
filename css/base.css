@@ -1,0 +1,41 @@
+body{
+  width: 100%;
+  margin: auto;
+  font-family: helvetica, serif;
+  background-color: darkslategray;
+  justify-content: space-around;
+}
+
+header {
+  height:50%;
+  width: 50%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 77px;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  color: red;
+  justify-content: space-around;
+}
+
+section h2 {
+  margin-bottom: 12.5px;
+  font-size: 1.4rem;
+}
+section img {
+  width: 70%;
+  height: 70%;
+  margin-left: 10%;
+}
+
+section p {
+  vertical-align: bottom;
+}
+
+audio {
+  opacity: 0.1;
+  left: 400px;
+  float:center;
+}

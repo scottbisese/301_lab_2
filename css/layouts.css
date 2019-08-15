@@ -1,0 +1,21 @@
+section {
+  width: 40%;
+  text-align: center;
+  justify-content: row;
+}
+
+section {
+  width: 16.666%;
+  height: 275px;
+  float: left;
+  text-align: center;
+}
+
+select {
+  margin: 33px;
+  width: 50%;
+  padding: 16x;
+  justify-content: space-around;
+}
+
+
